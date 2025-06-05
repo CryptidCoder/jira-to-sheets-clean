@@ -1,3 +1,5 @@
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+
 # Jira to Sheets
 
 This project gathers issues from Jira—including ticket summary, ticket number, priority, and assignee—and compiles them into a Google Sheet. A new sheet is created with each import, making it easy to track issue snapshots over time.
