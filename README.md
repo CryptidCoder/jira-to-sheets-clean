@@ -33,3 +33,25 @@ This tool is designed to give a high-level view of development progress. It’s 
 
    ```bash
    python main.py
+
+---
+
+## 🧾 Google Sheets Formatting Script (Optional)
+
+This repository includes an optional Google Apps Script file: `google_formatting.gs`.
+
+After running the main Python script and creating a new tab in your Google Sheet, you can use this script to:
+
+- Apply formatting for better readability
+- Add bold headers, auto-fit columns, and color-code priority levels
+- Visually group issues by Epic using dashed rows
+
+### 🔧 How to Use It
+
+1. Open your Google Sheet
+2. Click `Extensions → Apps Script`
+3. Copy the contents of `google_formatting.gs` into the script editor
+4. Save and run the function (e.g., `formatSheetAndTrimAssignees`)
+5. Accept permissions if prompted
+
+This script is optional but useful if you’re sharing the sheet with stakeholders or using it to review tickets at a glance.
